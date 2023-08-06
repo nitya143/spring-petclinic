@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('shell') {
       steps {
-        sh './mvnw clean compile'
+        sh 'git clone https://github.com/tsdevopsacp/spring-petclinic.git'
       }
     }
 
